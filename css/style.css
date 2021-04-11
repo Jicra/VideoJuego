@@ -171,3 +171,17 @@
                             text-align: left;
                         }
                     }
+                    
+                    .marco {
+                        position: relative;
+                        width: 100%;
+                        left: 190px;
+                        bottom: 145px;
+                    }
+                    
+                    .personajes {
+                        position: relative;
+                        width: 100%;
+                        left: 215px;
+                        bottom: -145px;
+                    }
