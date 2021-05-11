@@ -23,7 +23,7 @@ function validar() {
         alert("Falta llenar el numero");
         return false;
     }
-    var d = document.forms["myForm"]["message"].value;
+    var d = document.forms["myForm"]["msg"].value;
     if (d == "") {
         alert("Falta llenar el mensaje");
         return false;

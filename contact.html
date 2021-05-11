@@ -51,7 +51,7 @@
                         <div class="p-5">
                             <br>
                             <div>
-                                <form name="myForm" class="marcocontacto" action="/my-handling-form-page" onsubmit="return validar()" method="post">
+                                <form method="post" name="myForm" class="marcocontacto" action="listo" onsubmit="return validar()">
 
                                     <div class="pepe">
                                         <div class=" jumbotrontitulo">
@@ -61,7 +61,7 @@
                                         <label for="username"></label><br>
 
                                         <p class=" jumbotrontext">USUARIO:</p>
-                                        <input class="blanco" type="text" id="username" name="username" pattern="[a-z0-9._%+-]{4,20}" placeholder="Usuario"><br>
+                                        <input class="blanco" type="text" id="username" name="username" pattern="[a-z0-9._%+-]{3,20}" placeholder="Usuario"><br>
 
                                         <label for="email"></label><br>
                                         <P class=" jumbotrontext">EMAIL:</P>
@@ -78,9 +78,9 @@
                                         <label for="msg"></label><br>
                                         <P class=" jumbotrontext">MENSAJE</P>
 
-                                        <input class="blancocel" type="text" id="msg" name="message" placeholder="Escribenos un mensaje."><br>
+                                        <input class="blancocel" type="text" id="msg" name="msg" pattern="[a-zA-Z0-9\s\.\,]{4,500}" placeholder="Escribenos un mensaje."><br>
                                         <br>
-                                        <input class="blanco" type="file" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif">
+                                        <input class="blanco" type="file" id="imagensubida" name="imagensubida" accept="image/png, .jpeg, .jpg, image/gif">
                                         <br>
                                         <br>
                                         <input class="botonenviar" type="reset" onclick="alert('SE BORRO TODO LO INSERTADO')" value="-BORRAR TODO-" required>
