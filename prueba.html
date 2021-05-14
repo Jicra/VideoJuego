@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WIKI - ED</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="prueba.php">
+</head>
+
+<body>
+    <video poster="" id="bgvid" playsinline autoplay muted loop>
+        <source src="https://giant.gfycat.com/LazyOddAgama.webm">
+        </video>
+    <header>
+        <header class="menu-fixed">
+            <div class="bordmenu">
+                <script src="java/script.js"></script>
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active"><img src="img/icons_logo.png" alt="" width="25px"> XARTGORD</a>
+                    <a href="personajes.html">PERSONAJES</a>
+                    <a href="items.html">ITEMS</a>
+                    <a href="enemigos.html">ENEMIGOS</a>
+                    <a href="contact.html">CONTACTANOS</a>
+                    <a href="mercancia.html">PRODUCTOS</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </header>
+    <br>
+    <br>
+    <br>
+    <form action="enviar.php" method="post">
+        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+        <button type="submit" class="btn btn-primary">ENVIAR </button>
+    </form>
+</body>
+
+</html>
